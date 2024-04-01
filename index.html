@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vikram Mageshkumar - Resume</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram Mageshkumar Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        header, .experience, .education, .projects, .skills, .awards { margin-bottom: 20px; }
+        h2 { color: #333; }
+        .details { margin-left: 20px; }
+        .details li { margin-bottom: 10px; }
+    </style>
 </head>
 <body>
-  <header>
     <div class="container">
-      <h1>Vikram Mageshkumar</h1>
-      <p class="subtitle">Senior Software Engineer</p>
-      <p class="location">Bangalore, India</p>
+        <header>
+            <h1>Vikram Mageshkumar</h1>
+            <p>Email: mvikram.mageshkumar18@gmail.com | Phone: (989) 341-4372</p>
+            <p>Portfolio: https://vikrammageshkumar.me | LinkedIn: https://www.linkedin.com/in/mvikram93/ | GitHub: https://github.com/mvikram93</p>
+            <p>Ready to Relocate Anywhere | No Sponsorship Required</p>
+        </header>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <ul class="details">
+                <li>Master of Science in Information Systems, Central Michigan University, MI, USA (GPA 3.8/4.0) [Aug 2022 - May 2024]</li>
+                <li>Bachelor of Technology in Information Technology, Anna University, Chennai, India [Aug 2013 - May 2017]</li>
+            </ul>
+        </section>
+        
+        <section class="experience">
+            <h2>Professional Experience</h2>
+            <h3>Happiest Minds Technologies, Bangalore, India - Senior Software Engineer [Nov 2021 - Sept 2022]</h3>
+            <ul class="details">
+                <li>Migrated 80 million records from Cassandra to MongoDB, reducing operating costs by 30%.</li>
+                <li>Developed and secured RESTful APIs with Spring Boot and Spring Security.</li>
+                <li>Streamlined data migration processes with Docker, improving efficiency by 20%.</li>
+                <li>Re-engineered microservices for enhanced performance, increasing search efficiency by 30%.</li>
+            </ul>
+            <h3>Cognizant, Chennai, India - Associate [Apr 2018 - Oct 2021]</h3>
+            <ul class="details">
+                <li>Developed RESTful APIs for banking services, enhancing performance and reliability.</li>
+                <li>Contributed to Agile Scrum practices, leading to iterative development and client-focused results.</li>
+            </ul>
+            <h3>Fipply Technologies LLP, Chennai, India - Software Engineer (Java Developer) [Oct 2017 - Apr 2018]</h3>
+            <ul class="details">
+                <li>Built a data analytics engine, improving data-driven decision-making.</li>
+            </ul>
+        </section>
+        
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul class="details">
+                <li>Kubernetes Ingress API Gateway: Designed and implemented an Ingress API Gateway for microservices, enhancing system scalability and security.</li>
+                <li>Climate Change Temperature Prediction for the Year 2100: Led a project to predict global temperature rise, deploying it on AWS EC2.</li>
+            </ul>
+        </section>
+        
+        <section class="skills">
+            <h2>Technical Skills and Tools</h2>
+            <p>Java, SQL, NoSQL, NodeJS, Python, JavaScript, Spring Boot, Docker, Kubernetes, AWS, CI/CD, Jenkins, Git, Agile methodologies, and more.</p>
+        </section>
+        
+        <section class="awards">
+            <h2>Awards</h2>
+            <ul class="details">
+                <li>1x Insta Award from Happiest Minds Technologies (Feb 2022)</li>
+                <li>3x Cognizant Cheers Award</li>
+            </ul>
+        </section>
     </div>
-  </header>
-
-  <main>
-    <section class="container">
-      <h2>Experience</h2>
-      <article>
-        <h3>Happiest Minds Technologies - Senior Software Engineer</h3>
-        <p>Nov 2021 – Aug 2022</p>
-        <ul>
-          <li>Developed and executed a comprehensive plan to migrate 80 million records from Cassandra to MongoDB using spring batch utility...</li>
-          <!-- Add other bullet points of experience -->
-        </ul>
-      </article>
-
-      <!-- Add other job experiences in a similar structure -->
-    </section>
-
-    <section class="container">
-      <h2>Education</h2>
-      <article>
-        <h3>Central Michigan University - Master of Science in Information Systems, Major in Business Data Analytics</h3>
-        <p>May 2024</p>
-        <ul>
-          <li>Participated in the NCAE Cyber Games CTF event held in February 2023.</li>
-          <!-- Add other details about education -->
-        </ul>
-      </article>
-
-      <!-- Add other educational experiences in a similar structure -->
-    </section>
-
-    <section class="container">
-      <h2>Skills and Awards</h2>
-      <article>
-        <h3>Technical Skills</h3>
-        <p>Java 8, Java 11, Springboot, Spring Security, ...</p>
-        <!-- Add other technical skills -->
-      </article>
-
-      <article>
-        <h3>Awards</h3>
-        <p>1x Insta Award from HappiestMinds in Feb 2022, 3x Cognizant Cheers Award</p>
-        <!-- Add other awards -->
-      </article>
-    </section>
-  </main>
 </body>
 </html>
